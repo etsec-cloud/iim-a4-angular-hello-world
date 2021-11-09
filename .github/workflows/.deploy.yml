@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: "14"
 
-    - name: "Install node"
+    - name: "Install node Modul"
       run: npm install
 
     - name: "Build app"
