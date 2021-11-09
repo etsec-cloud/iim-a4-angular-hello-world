@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: "Set up chromedriver"
-        uses: nanasess/setup-chromedriver@master
+        uses: sudo apt-get install chrome-driver
 
       - name: "Run tests"
         run: npm run test --no-watch --no-progress
